@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    background-image: url('https://th.bing.com/th?q=Background+Design+for+Calculator&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.calculator {
+    width: 500px;
+    margin: 400px auto;
+    background: black; /* Semi-transparent background */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.buttons button {
+    width: 78px;
+    height: 78px;
+    margin: 8px;
+    font-size: 28px;
+}
